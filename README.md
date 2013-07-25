@@ -167,13 +167,13 @@ NSDictionary *keyedShit = @{ GHDidCreateStyleGuide: @YES };
  * Longer or more complex literals should be split over multiple lines (optionally with a terminating comma):
 
 ``` objc
-NSArray *theShit = @[
+NSArray *theStuff = @[
     @"Got some long string objects in here.",
     [AndSomeModelObjects too],
     @"Moar strings."
 ];
 
-NSDictionary *keyedShit = @{
+NSDictionary *keyedStuff = @{
     @"this.key": @"corresponds to this value",
     @"otherKey": @"remoteData.payload",
     @"some": @"more",
